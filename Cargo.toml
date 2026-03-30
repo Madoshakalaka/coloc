@@ -1,0 +1,15 @@
+[workspace]
+members = ["coloc-macro"]
+
+[package]
+name = "coloc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+coloc-macro = { path = "coloc-macro" }
+
+[features]
+lang-en = ["coloc-macro/lang-en"]
+lang-ja = ["coloc-macro/lang-ja"]
+lang-zh-hans = ["coloc-macro/lang-zh-hans"]

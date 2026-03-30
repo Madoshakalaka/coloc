@@ -4,6 +4,8 @@ Co-located i18n for styled strings in Rust.
 
 **Status: Proof of Concept**
 
+Pronunciation: /'koʊlɑːk/ (COPE-lock with a silent p, stress on the first syllable)
+
 ## Motivation
 
 Traditional i18n solutions require you to repeat the structural markup of every styled string in every language file. Consider a page with a few paragraphs:
